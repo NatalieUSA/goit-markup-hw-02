@@ -1,14 +1,3 @@
-body {
-    background-color: #fff;
-    color: #757575;
-}
-
-.list {
-    list-style: none;
-}
-
-
-
 /* Цвет WEB  rgba(33, 150, 243, 1)    + Studio   rgba(0, 0, 0, 1) */
 /* Цвета nav  голубой - rgba(33, 150, 243, 1;  черный - rgba(33, 33, 33, 1) */
 
@@ -26,27 +15,4 @@ body {
                     gray ntrcn - 757575
                     black - 000000
                     light grey - ECECEC
-                    white - FFFFFF*/ 
-
-/* НЕ ЗНАЮ, КАК СДЕАТЬ !!! */
-.logo {
-    color: rgba(33, 150, 243, 1);
-}
-/* Site nav */
-.site-nav .link {
-    color: #212121;
-}
-
-.auth-nav .link {
-    color: rgba(117, 117, 117, 1);
-}
-
-.site-nav .link:hover,
-site-nav .link:focus {
-    color: #2196F3;
-}
-
-.auth-nav. link:hover,
-.auth-nav .link:focus {
-    color: #2196F3;
-}
+                    white - FFFFFF*/
