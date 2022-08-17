@@ -7,6 +7,7 @@
   --logo-color: #000000;
   --hero-section-color: #2f303a;
   --hero-text-color: #ffffff;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 
 .list {
@@ -35,6 +36,10 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -69,18 +74,37 @@ body {
 /* OUR TEAM */
 .team-list .title {
   color: var(--title-text-color);
+}
+
+/* BUTTON */
+.button {
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
+}
+.button.button-primary
+
+.button.button-secodary
+
+
 
 /* FOOTER */
 .footer > .logo {
   color: var(--hero-text-color);
 }
 
-.footer .footer-logo {
+.footer .logo {
   color: var(--hero-text-color);
   text-decoration-style: none;
 }
-.footer .footer-logo-span {
+.footer .logo-span {
   color: var(--accent-color);
 }
 
+.location {
+  color: var(--hero-text-color);
+}
 
+.adress.link {
+  color: var(--footer-link-color);
+  text-decoration: none;
+}
