@@ -18,7 +18,6 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-section-color);
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
 }
 
 /* LOGO */
@@ -29,6 +28,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .logo-span {
@@ -102,11 +102,13 @@ body {
   font-size: 14px;
   line-height: 1.14em;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .features-list .text {
   font-size: 14px;
   line-height: 1.7em;
+  letter-spacing: 0.03em;
 }
 
 /* COMPETITION */
@@ -118,12 +120,14 @@ body {
   font-size: 16px;
   line-height: 1.88em;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-list .position {
   font-size: 16px;
   line-height: 1.18em;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* GALLERY - page Portfolio */
@@ -173,16 +177,18 @@ body {
   color: var(--accent-color);
 }
 
-.page-footer .location {
-  color: var(--hero-text-color);
-  font-size: 14px;
-  line-height: 1.7em;
-}
-
-.page-footer .link {
-  color: var(--footer-link-color);
+.page-footer .auth-footer {
   text-decoration: none;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71em;
+  letter-spacing: 0.03em;
+}
+
+.page-footer .location {
+  color: var(--hero-text-color);
+}
+
+.page-footer .link {
+  color: var(--footer-link-color);
 }
