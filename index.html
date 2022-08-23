@@ -9,73 +9,72 @@
       content="WebStudio - ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ"
     />
     <title>WebStudio</title>
+    <!-- Fonts - start -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Fonts end -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="page">
     <!--Шапка сайта-->
-    <header class="nav nav-bcg">
-      <nav>
-        <a href="./index.html" class="logo" lang="en"
+    <header class="header">
+      <nav class="main-nav">
+        <a class="logo" href="./index.html" lang="en"
           ><span class="logo-span">Web</span>Studio</a
         >
-
         <ul class="site-nav list">
-          <li><a href="./index.html" class="link current">Студія </a></li>
-          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-          <li><a href="#" class="link">Контакти</a></li>
+          <li><a class="link current" href="./index.html">Студія </a></li>
+          <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="link" href="#">Контакти</a></li>
         </ul>
       </nav>
 
       <ul class="auth-nav list">
-        <li><a href="" class="link">+38 096 111 11 11</a></li>
-        <li><a href="" class="link">info@devstudio.com</a></li>
+        <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a class="link" href="mailto:">info@devstudio.com</a></li>
       </ul>
     </header>
 
+    <!--Герой-->
     <main>
-      <!--Герой-->
-      <section class="hero-title hero-bcg">
-        <h1 class="hero-title heading-main">
-          Ефективні рішення для вашого бізнесу
-        </h1>
+      <section class="hero">
+        <h2 class="hero-title">Ефективні рішення для вашого бізнесу</h2>
         <button type="button" class="button">Замовити послугу</button>
       </section>
 
       <!--Преимущества-->
-      <section class="section">
-        <h2 class="section-title" hidden>Наші конкурентні переваги</h2>
-        <ul class="features-list">
-          <li class="list">
-            <h3 class="title list">УВАГА ДО ДЕТАЛЕЙ</h3>
+      <section class="features">
+        <h2 class="title" hidden>Наші конкурентні переваги</h2>
+        <ul class="feature-list list">
+          <li class="item">
+            <h3 class="item-title list">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
 
-          <li class="list">
-            <h3 class="title list">ПУНКТУАЛЬНІСТЬ</h3>
+          <li class="item">
+            <h3 class="item-title list">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
 
-          <li class="list">
-            <h3 class="title list">ПЛАНУВАННЯ</h3>
+          <li class="item">
+            <h3 class="item-title list">ПЛАНУВАННЯ</h3>
             <p class="text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
 
-          <li class="list">
-            <h3 class="title list">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+          <li class="item">
+            <h3 class="item-title list">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
@@ -85,10 +84,10 @@
       </section>
 
       <!--секция - 3 фото -->
-      <section class="section">
-        <h2 class="section-title">Чим ми займаємося</h2>
+      <section class="competition">
+        <h2 class="competition-title">Чим ми займаємося</h2>
         <ul class="competition-list">
-          <li class="list">
+          <li class="competition-item list">
             <img
               src="./images/1p-work/img11.jpg"
               alt="За комп'ютером працює людина"
@@ -97,7 +96,7 @@
             />
           </li>
 
-          <li class="list">
+          <li class="competition-item list">
             <img
               src="./images/1p-work/img21.jpg"
               alt="За ноутбуком працює людина та в руці тримає мобільний телефон. 
@@ -107,7 +106,7 @@
             />
           </li>
 
-          <li class="list">
+          <li class="competition-item list">
             <img
               src="./images/1p-work/img31.jpg"
               alt="В руках людина тримає планшет з зображенням градієнту кольорів"
@@ -119,10 +118,10 @@
       </section>
 
       <!--Команда-->
-      <section class="section">
-        <h2 class="section-title">Наша команда</h2>
-        <ul class="team-list">
-          <li class="list">
+      <section class="team">
+        <h2 class="team-title">Наша команда</h2>
+        <ul class="team-list list">
+          <li class="team-item">
             <img
               src="./images/1p-comanda/squosh/photo_igor1.jpg"
               alt="фотографія Ігора"
@@ -133,7 +132,7 @@
             <p class="position" lang="en">Product Designer</p>
           </li>
 
-          <li class="list">
+          <li class="team-item">
             <img
               src="./images/1p-comanda/squosh/photo_olga1.jpg"
               alt="фотографія Ольги"
@@ -144,7 +143,7 @@
             <p class="position" lang="en">Frontend Developer</p>
           </li>
 
-          <li class="list">
+          <li class="team-item">
             <img
               src="./images/1p-comanda/squosh/photo_mykola1.jpg"
               alt="фотографія Миколи"
@@ -155,7 +154,7 @@
             <p class="position" lang="en">Marketing</p>
           </li>
 
-          <li class="list">
+          <li class="team-item">
             <img
               src="./images/1p-comanda/squosh/photo_mykhailo1.jpg"
               alt="фотографія Михайла"
@@ -170,17 +169,17 @@
     </main>
 
     <!--Подвал-->
-    <footer class="page-footer footer-bcg">
-      <a href="/" class="footer-logo" lang="en"
+    <footer class="footer">
+      <a href="/" class="logo" lang="en"
         ><span class="logo-span">Web</span>Studio</a
       >
 
-      <address class="auth-footer">
+      <address class="adress list">
         <p class="location">м. Київ, пр-т Лесі Українки, 26</p>
 
-        <ul class="list">
-          <li><a class="link" href="">info@devstudio.com</a></li>
-          <li><a class="link" href="">+38 096 111 11 11</a></li>
+        <ul class="auth-list list">
+          <li><a class="link" href="#">info@devstudio.com</a></li>
+          <li><a class="link" href="#">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
