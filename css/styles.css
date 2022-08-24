@@ -18,12 +18,14 @@
   --secondary-bcg-cl: #f5f4fa;
   --hero-bcg-cl: #2f303a;
   --accent-bcg-cl: #2196f3;
+  --btn-hover-cl: #188ce8;
 }
 
-.page {
+body {
   font-family: var(--main-fonts);
   color: var(--main-txt-cl);
   background-color: var(--main-bcg-cl);
+  letter-spacing: 0.03em;
 }
 
 /* Reset */
@@ -49,7 +51,6 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
 }
 
 .logo-span {
@@ -66,11 +67,12 @@ header {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-txt-cl);
-}
-
-.site-nav .link.current {
+.site-nav .link:focus,
+.site-nav .link.current,
+.auth-nav .link:hover,
+.auth-nav .link:focus,
+.adress .link:hover,
+.adress .link:focus {
   color: var(--accent-txt-cl);
 }
 
@@ -81,10 +83,6 @@ header {
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-}
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: var(--accent-txt-cl);
 }
 
 .nav-bcg {
@@ -118,20 +116,36 @@ header {
   cursor: pointer;
 }
 
+.button:hover,
+.button:focus {
+  background-color: var(--btn-hover-cl);
+}
+
 /* FEATURES Преимущества*/
 .features .item-title {
   color: var(--title-txt-cl);
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .features .text {
   font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 /* COMPETITION */
@@ -141,7 +155,6 @@ header {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* OUR TEAM */
@@ -159,7 +172,6 @@ header {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-item .title {
@@ -168,15 +180,12 @@ header {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-item .position {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* GALLERY - page Portfolio */
@@ -186,12 +195,10 @@ header {
   background-color: var(--secondary-bcg-cl);
 
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
   cursor: pointer;
 }
 
@@ -212,7 +219,6 @@ header {
 .gallery .img-type {
   font-size: 16px;
   line-height: calc(30 / 16);
-  letter-spacing: 0.03em;
 }
 
 /* FOOTER */
@@ -233,16 +239,10 @@ header {
   font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
 }
 .adress .auth-list {
   color: var(--footer-link-cl);
   font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
-}
-.adress .link:hover,
-.adress .link:focus {
-  color: var(--accent-txt-cl);
 }
